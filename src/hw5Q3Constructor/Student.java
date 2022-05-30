@@ -16,6 +16,7 @@ public class Student {
 		this.sex = sex;
 		this.isProgramming = isProgramming;
 		this.grade = grade;
+		
 		System.out.println("This is from default Constructor of Student class.\n" + "\nStudent name: " + stName + ", ID: "
 				+ stID + ", Sex: " + sex + ", Grade: " + grade + " and Java Programmer? Ans: " +isProgramming + ".");
 	}
