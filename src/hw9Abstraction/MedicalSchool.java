@@ -15,6 +15,7 @@ public abstract class MedicalSchool extends NursingSchool {
 	public abstract void anatomyLab();
 
 	public void biochemistryLab() {
+		System.out.println("Blood tests are done at biochemistry lab");
 	}
 
 }

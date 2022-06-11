@@ -1,4 +1,4 @@
-package hw9Abstraction;
+package hw10Abstraction;
 
 public interface Hospital {
 	
