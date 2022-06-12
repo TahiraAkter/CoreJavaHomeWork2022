@@ -8,7 +8,7 @@ public class Daughter extends Father {
 		super();
 		super.familyName = "Ali";
 		System.out.println("Father's family name: " + familyName);
-		
+
 		System.out.println("\nThis is a default constructor from Daughter Class");
 	}
 
@@ -27,12 +27,11 @@ public class Daughter extends Father {
 		super.father();
 		super.fatherInfo("Mohammed", 80, 'M', true);
 		super.familyName = "Ali";
-		System.out.println("Father's family name: "+familyName);
-		
+		System.out.println("Father's family name: " + familyName);
+
 		this.birthMonth = birthMonth;
 		this.age = age;
-		
-		
+
 		System.out.println("\nDaugher's month of birth: " + birthMonth + "\nDaugher's age: " + age);
 	}
 
